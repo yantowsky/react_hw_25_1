@@ -15,6 +15,9 @@ class App extends Component {
             showResults: false,
             presenceVote: false,
         }
+        this.handleVoteEmoji = this.handleVoteEmoji.bind(this);
+        this.handleResetVotes = this.handleResetVotes.bind(this);
+        this.handleShowResults = this.handleShowResults.bind(this);
     }
 
     handleVoteEmoji = (id) => {
